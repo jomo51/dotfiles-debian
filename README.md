@@ -105,3 +105,7 @@ chmod +x install.sh
 - 実行環境はsymlinkを貼るスタイル
 - install.shでは配置のみでパッケージは別管理にしようと思ってる
 
+## NOTE
+
+- neovimの設定類は前回作ってたいにしえのdotfileから丸パクリ
+
