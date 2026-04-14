@@ -26,6 +26,7 @@
   br = branch
   ci = commit
   lg = log --oneline --graph --decorate --all
+  sw = switch
   last = log -1 HEAD --stat
   unstage = restore --staged
 [user]
