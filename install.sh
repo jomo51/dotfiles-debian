@@ -12,7 +12,7 @@ log() {
 backup_if_exists() {
   local target="$1"
 
-  if [[ -L "$target" || -e "$target"]]; then
+  if [[ -L "$target" || -e "$target" ]]; then
     mkdir -p "$BACKUP_DIR"
     log "backup: $target -> $BACKUP_DIR"
     mv "$target" "$BACKUP_DIR/"
