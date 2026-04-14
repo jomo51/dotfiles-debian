@@ -25,6 +25,9 @@
   co = checkout
   br = branch
   ci = commit
-  lg = log --online --graph --decorate --all
+  lg = log --oneline --graph --decorate --all
   last = log -1 HEAD --stat
   unstage = restore --staged
+[user]
+	email = jomo@Ubuntu
+	name = jomo
