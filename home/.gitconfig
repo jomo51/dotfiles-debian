@@ -1,0 +1,30 @@
+[core]
+  editor = nvim
+  autocrlf = input
+  #excludesfile = ~/.gitignore_global
+  pager = less -FRX
+
+[init]
+  defaultBranch = main
+
+[pull]
+  rebase = false
+
+[push]
+  default = simple
+
+[marge]
+  conflictstyel = zdiff3
+  ff = false
+
+[color]
+  ui = auto
+
+[alias]
+  st = status -sb
+  co = checkout
+  br = branch
+  ci = commit
+  lg = log --online --graph --decorate --all
+  last = log -1 HEAD --stat
+  unstage = restore --staged

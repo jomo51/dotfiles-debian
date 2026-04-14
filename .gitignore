@@ -1,0 +1,15 @@
+# --- OS ---
+.DS_store
+Thumbs.db
+
+# --- caches ---
+.cache/
+tmp/
+temp/
+
+# --- neovim ---
+**/lazy-lock.json
+
+# --- ssh ---
+ssh/
+
