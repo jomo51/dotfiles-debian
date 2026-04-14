@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefile
+set -euo pipefail
 
 DOT="${DOTFILES_HOME:-$HOME/dotfiles}"
 TGTCFG="$HOME/.config"
