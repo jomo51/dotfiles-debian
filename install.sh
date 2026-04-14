@@ -3,7 +3,7 @@ set -euo pipefail
 
 DOT="${DOTFILES_HOME:-$HOME/dotfiles}"
 TGTCFG="$HOME/.config"
-BACKUP_DIR="$HOME/.dotbackup/$(data +%Y%m%d_%H%M%S)"
+BACKUP_DIR="$HOME/.dotbackup/$(date +%Y%m%d_%H%M%S)"
 
 log() {
   printf '[dotfiles] %s\n' "$1"
