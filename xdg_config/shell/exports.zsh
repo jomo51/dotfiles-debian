@@ -22,3 +22,5 @@ export SAVEHIST=10000
 # User bin
 export PATH="$HOME/bin:$PATH"
 
+# man pahge
+export MANPAGER="nvim +Man!"
