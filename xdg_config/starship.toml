@@ -24,7 +24,7 @@ format = "[@$hostname]($style)"
 [directory]
 style = "bold blue"
 truncation_length = 3
-trauncation_to_repo = false
+truncate_to_repo = false
 
 [git_branch]
 symbol = ""
